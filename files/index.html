@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple CMS</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f6f6; color: #111; margin: 0; }
+    header { background: #1a1a1a; color: #fff; padding: 12px 20px; }
+    main { max-width: 1000px; margin: 0 auto; padding: 20px; }
+    h1 { font-size: 18px; margin: 0; }
+    h2 { font-size: 16px; margin: 20px 0 10px; }
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    th, td { border: 1px solid #ddd; padding: 8px; font-size: 13px; text-align: left; }
+    th { background: #f0f0f0; }
+    .note { font-size: 12px; color: #555; margin-top: 6px; }
+    .card { background: #fff; border: 1px solid #ddd; padding: 12px; margin-bottom: 16px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Simple Course Management System (CMS)</h1>
+  </header>
+  <main>
+    <div class="card">
+      <strong>Modules:</strong> Users, Courses, Enrollments, Assignments, Submissions, Grades
+      <div class="note">Static demo page. Data shown below is sample.</div>
+    </div>
+
+    <h2>Courses</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Course Code</th>
+          <th>Course Name</th>
+          <th>Instructor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>CSS2212</td><td>Database Systems</td><td>Dr. April D'Souza</td></tr>
+        <tr><td>ICT2101</td><td>Web Technologies</td><td>Prof. Rohit Nair</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Assignments</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Assignment</th>
+          <th>Course</th>
+          <th>Due Date</th>
+          <th>Max Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>ER Modeling Basics</td><td>CSS2212</td><td>20-Feb-2026</td><td>20</td></tr>
+        <tr><td>SQL Practice Set</td><td>CSS2212</td><td>05-Mar-2026</td><td>30</td></tr>
+        <tr><td>React Intro</td><td>ICT2101</td><td>25-Feb-2026</td><td>25</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Recent Submissions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Assignment</th>
+          <th>Submitted On</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Meera Iyer</td><td>ER Modeling Basics</td><td>18-Feb-2026</td></tr>
+        <tr><td>Arjun Rao</td><td>ER Modeling Basics</td><td>19-Feb-2026</td></tr>
+        <tr><td>Dev Chopra</td><td>React Intro</td><td>24-Feb-2026</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
